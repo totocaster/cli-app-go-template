@@ -21,6 +21,7 @@
 - Add unit tests for new command behavior and helper packages.
 - Keep commands dependency-injected through `internal/app.Runtime` so tests do not need real user state.
 - Use table-driven tests where they improve clarity.
+- Keep local lint aligned with the pinned version in `.golangci-lint-version`.
 
 ## Commit Format
 
