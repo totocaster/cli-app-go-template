@@ -63,6 +63,8 @@ make lint
 make release-snapshot
 ```
 
+The template pins `golangci-lint` in `.golangci-lint-version`. CI reads that file so lint behavior stays reproducible across local runs and GitHub Actions.
+
 ## Project Structure
 
 ```text
