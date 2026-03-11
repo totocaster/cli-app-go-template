@@ -40,6 +40,7 @@ This file is the behavioral contract for the template.
 - Add tests for user-visible behavior.
 - Run `make fmt test build` before merge.
 - Keep lint passing in CI.
+- Pin tool versions when the latest release can change behavior under the repo unexpectedly.
 - Keep release paths current when binary names or entrypoints change.
 
 ## Commit Convention
